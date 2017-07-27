@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/id_menu_add"
+        android:title="@string/add"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@mipmap/ic_menu_add"
+        />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_action_search"
+        android:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_search" />
+    <item
+        android:id="@+id/id_menu_music"
+        android:title="@string/music"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@mipmap/ic_menu_music"
+        />
+    <item
+        android:id="@+id/id_menu_screenshoot"
+        android:title="@string/screenshoot"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@mipmap/ic_menu_screenshoot"
+        />
+    <item
+        android:id="@+id/id_menu_location"
+        android:title="@string/location"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@mipmap/ic_menu_location"
+        />
+
+</menu>

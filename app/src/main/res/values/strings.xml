@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToolBar</string>
+    <string name="add">添加</string>
+    <string name="music">音乐</string>
+    <string name="screenshoot">截屏</string>
+    <string name="location">位置</string>
+    <string name="action_search">搜索</string>
+</resources>
